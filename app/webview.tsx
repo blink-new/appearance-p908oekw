@@ -11,6 +11,7 @@ import {
   Animated as RNAnimated
 } from 'react-native';
 import { WebView } from 'react-native-webview';
+import { Platform } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import { ArrowLeft, PlusCircle, ShoppingBag } from 'lucide-react-native';
 import { useOutfitStore, ProductCategory, ProductItem } from '@/utils/store';
