@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet, FlatList, SafeAreaView, TouchableOpacity, Image } from 'react-native';
 import React, { useState } from 'react';
 import { router } from 'expo-router';
-import { SearchIcon } from 'lucide-react-native';
+import { Search } from 'lucide-react-native';
 import Animated, { FadeInUp } from 'react-native-reanimated';
 
 // Sample store data
@@ -65,7 +65,7 @@ export default function StoreGrid() {
       <View style={styles.header}>
         <Text style={styles.headerTitle}>Shop by Store</Text>
         <TouchableOpacity style={styles.searchIcon}>
-          <SearchIcon color="#333" size={24} />
+          <Search color="#333" size={24} />
         </TouchableOpacity>
       </View>
       
